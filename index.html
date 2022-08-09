@@ -586,37 +586,38 @@
         <form class="register-form">
           <h3 class="register-form-title">Оставьте свои данные, мы вам перезвоним</h3>
           <div class="register-form-group" role="group">
-            <label class="register-form-wrap" for="name">Имя</label>
-            <div class="input-field">
-              <input class="input" type="text" name="name" id="name" />
-              <svg class="icon-input" width="18" height="18">
+            <label class="register-form-wrap" for="name">
+              <span class="register-form-label">Имя</span>
+              <input class="register-form-input" type="text" name="name" />
+              <svg class="register-form-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-modal-name"></use>
               </svg>
-            </div>
+            </label>
 
-            <label class="label" for="phone">Телефон</label>
-            <div class="input-field">
-              <input class="input" type="tel" name="tel-number" id="phone" />
-              <svg class="icon-input" width="18" height="18">
+            <label class="register-form-wrap" for="phone">
+              <span class="register-form-label">Телефон</span>
+              <input class="register-form-input" type="tel" name="tel-number" />
+              <svg class="register-form-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-modal-phone"></use>
               </svg>
-            </div>
+            </label>
 
-            <label class="label" for="email">Почта</label>
-            <div class="input-field">
-              <input class="input" type="email" name="e-mail" id="email-modal" />
-              <svg class="icon-input" width="18" height="18">
+            <label class="register-form-wrap" for="email">
+              <span class="register-form-label">Почта</span>
+              <input class="register-form-input" type="email" name="e-mail" />
+              <svg class="register-form-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-modal-mail"></use>
               </svg>
-            </div>
+            </label>
 
-            <label class="label" for="comments">Комментарий</label>
-            <textarea
-              class="input-comments"
-              name="comments"
-              id="comments"
-              placeholder="Введите текст"
-            ></textarea>
+            <label class="register-form-wrap" for="comments">
+              <span class="register-form-label">Комментарий</span>
+              <textarea
+                class="register-form-message"
+                name="comments"
+                placeholder="Введите текст"
+              ></textarea>
+            </label>
           </div>
 
           <label class="register-form-agreement">
