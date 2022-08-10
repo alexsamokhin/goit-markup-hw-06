@@ -758,7 +758,7 @@ img {
 /* Modal window */
 
 .backdrop {
-  transition: opacity var(--animation), visability var(--animation);
+  transition: opacity var(--animation), visibility var(--animation);
   position: fixed;
   top: 0;
   left: 0;
@@ -831,10 +831,14 @@ img {
 
 .register-form-title {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .register-form-group {
