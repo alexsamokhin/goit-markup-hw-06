@@ -10,26 +10,6 @@
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--primary-text-color);
-}
-
-.title--fz36 {
-  margin-bottom: 50px;
-
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 /* Reset styles */
 
 a {
@@ -103,6 +83,26 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.title--fz36 {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* header */
@@ -441,12 +441,12 @@ img {
 }
 .footer__container {
   display: flex;
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 .footer__contacts {
   margin-right: 70px;
 }
-.header__logo--white {
+.footer__logo--white {
   margin-bottom: 20px;
 
   color: var(--white-color);
@@ -852,35 +852,35 @@ img {
   left: 12px;
 }
 
-.register-form__agreement {
+.agreement {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.register-form__mark {
+.agreement__mark {
   margin-right: 8px;
   margin-bottom: 2px;
 }
-.register-form__checkbox:checked + .register-form__mark .register-form__mark--uncheck {
+.agreement__checkbox:checked + .agreement__mark .agreement__mark--uncheck {
   opacity: 0;
   transition: opacity var(--animation);
 }
-.register-form__mark--check {
+.agreement__mark--check {
   opacity: 0;
   transition: opacity var(--animation);
 }
-.register-form__checkbox:checked + .register-form__mark .register-form__mark--check {
+.agreement__checkbox:checked + .agreement__mark .agreement__mark--check {
   opacity: 1;
 }
-.register-form__text {
+.agreement__text {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
 }
-.register-form__link {
+.agreement__link {
   color: var(--accent-color);
   text-decoration: underline;
 }

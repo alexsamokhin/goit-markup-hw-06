@@ -18,30 +18,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <!-- Header -->
 
     <header class="header">
-      <div class="container header__container">
-        <a class="logo header__logo--black link" href="./index.html"><span class="header__logo--inner">Web</span>Studio</a>
-        <nav class="header__nav">
-          <ul class="header__list list">
-            <li class="header__item">
-              <a class="header__link link" href="./index.html">Студия</a>
+      <div class="header__container">
+        <a class="logo header__logo--black" href="./index.html"
+          ><span class="header__logo--inner">Web</span>Studio</a
+        >
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">Студия</a>
             </li>
-            <li class="header__item">
-              <a class="header__link link header__link--current" href="#">Портфолио</a>
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="#">Портфолио</a>
             </li>
-            <li class="header__item">
-              <a class="header__link link" href="#">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__contacts-list list">
+        <ul class="header__contacts-list">
           <li class="header__item">
-            <a class="header__mail link" href="mailto:info@devstudio.com">
+            <a class="header__mail" href="mailto:info@devstudio.com">
               <svg class="header__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -49,7 +52,7 @@
             </a>
           </li>
           <li class="header__item">
-            <a class="header__phone link" href="tel:+380961111111">
+            <a class="header__phone" href="tel:+380961111111">
               <svg class="header__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -62,29 +65,29 @@
 
     <!-- Products -->
 
-    <section class="products section">
-      <div class="products__container container">
-        <ul class="products__filter filter list">
+    <section class="products">
+      <div class="products__container">
+        <ul class="products__filter filter__list">
           <li>
-            <button class="filter__btn btn" type="button">Все</button>
+            <button class="filter__btn" type="button">Все</button>
           </li>
           <li>
-            <button class="filter__btn btn" type="button">Веб-сайты</button>
+            <button class="filter__btn" type="button">Веб-сайты</button>
           </li>
           <li>
-            <button class="filter__btn btn" type="button">Приложения</button>
+            <button class="filter__btn" type="button">Приложения</button>
           </li>
           <li>
-            <button class="filter__btn btn" type="button">Дизайн</button>
+            <button class="filter__btn" type="button">Дизайн</button>
           </li>
           <li>
-            <button class="filter__btn btn" type="button">Маркетинг</button>
+            <button class="filter__btn" type="button">Маркетинг</button>
           </li>
         </ul>
 
-        <ul class="products__list list">
+        <ul class="products__list">
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <div class="products__card">
                 <img
                   src="./images/portfolio/1.jpg"
@@ -108,7 +111,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/2.jpg"
                 alt="проект 2"
@@ -123,7 +126,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/3.jpg"
                 alt="проект 3"
@@ -138,7 +141,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/4.jpg"
                 alt="проект 4"
@@ -153,7 +156,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/5.jpg"
                 alt="проект 5"
@@ -168,7 +171,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/6.jpg"
                 alt="проект 6"
@@ -183,7 +186,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/7.jpg"
                 alt="проект 7"
@@ -198,7 +201,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/8.jpg"
                 alt="проект 8"
@@ -213,7 +216,7 @@
             </a>
           </li>
           <li class="products__item">
-            <a class="products__link link">
+            <a class="products__link">
               <img
                 src="./images/portfolio/9.jpg"
                 alt="проект 9"
@@ -234,17 +237,19 @@
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="footer__container container">
+      <div class="footer__container">
         <div class="footer__contacts">
-          <a class="logo header__logo--white link" href="#"><span>Web</span>Studio</a>
+          <a class="logo footer__logo--white" href="#"
+            ><span class="header__logo--inner">Web</span>Studio</a
+          >
           <address class="address">
             <p class="address__descr">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="address__list">
               <li>
-                <a class="address__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li>
-                <a class="address__phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address__phone" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -253,28 +258,28 @@
           <h3 class="join__title">присоединяйтесь</h3>
           <ul class="join__list">
             <li class="join__item">
-              <a href="#" class="join__link link">
+              <a href="#" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="#" class="join__link link">
+              <a href="#" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="#" class="join__link link">
+              <a href="#" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="#" class="join__link link">
+              <a href="#" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
